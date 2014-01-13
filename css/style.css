@@ -1,0 +1,75 @@
+body {
+	background: #dff2f2;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+button, input {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+button.small {
+	font-size: 14px;
+}
+
+button.large {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+#lists {
+	background: #252525;
+	color: #fff;
+	font-size: 20px;
+}
+	
+	#lists a {
+		color: #fff;
+	}
+
+#tasks {
+	background: #fff;
+	font-size: 20px;
+}
+
+#users {
+	background: #252525;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+/* Phones and up */
+@media only screen and (min-width: 20em) {
+
+}
+
+/* Tablets (portrait) and up */
+@media only screen and (min-width: 48em) {
+    
+}
+
+/* Tablets (landscape) and up */
+@media only screen and (min-width: 64em) {
+    
+}
+
+
+/* Retina media queries */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+
+}
